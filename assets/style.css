@@ -451,7 +451,7 @@ box-shadow:  20px 20px 60px #050d19,
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin: 10rem 0;
+    margin: 5rem 0;
     justify-content: space-between;
     padding: 4rem 3rem;
     border-radius: 50px;
@@ -476,6 +476,7 @@ box-shadow:  20px 20px 60px #050d19,
 
 .case-study img{
     width: 45%;
+    margin-bottom: 1rem;
 }
 
 .used-skills-container{
@@ -548,6 +549,23 @@ box-shadow:  20px 20px 60px #050d19,
 .om-louise svg{
     padding-right: 1rem;
     max-width: 2.2rem;
+}
+
+.little-projects{
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.little-project{
+    max-width: 40%;
+}
+
+.little-project img{
+    width: 100%;
+}
+
+.little-project article{
+    width: 100%;
 }
 
 /* Social media vertical bar */
@@ -809,7 +827,7 @@ max-height: 650px;
     }
     
     .case-study{
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     .case-study img{
@@ -943,5 +961,9 @@ max-height: 650px;
         }
         .button-no-border{
             padding: 1rem;
+        }
+
+        .little-project{
+            max-width: 100%;
         }
 }
