@@ -51,7 +51,7 @@ animateRotate.forEach((animateRotate) => {
     scrollTrigger: {
       trigger: animateRotate,
     },
-    y:100,
+    y:200,
     rotation: 160,
     ease: "power1.out",
     opacity: 0,
@@ -163,7 +163,7 @@ animateFromRight.forEach((animateFromRight) => {
     },
     x:1000,
     y: -150,
-    rotate: -160,
+    rotate: -80,
     ease: "power4.out",
     opacity: 0,
     duration: 1.5
