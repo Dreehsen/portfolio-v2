@@ -500,6 +500,10 @@ box-shadow:  20px 20px 60px #050d19,
     min-height: 100vh;
 }
 
+.half{
+    width: 50%
+}
+
 .om-louise{
     display: flex;
     align-items: center;
@@ -767,7 +771,7 @@ max-height: 650px;
   }
 
   .det-kan-jeg{
-    margin-top: 10rem;
+    padding: 15rem 0 5rem 0;
   }
   
   @media screen and (max-width: 40em){

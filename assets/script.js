@@ -1,4 +1,3 @@
-
 // Burgermenu
 
 const hamburger = document.querySelector(".hamburger");
@@ -30,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (scroll > 70) {
         blackElement.style.backgroundColor = "var(--background)";
         blackElement.style.boxShadow = "20px 20px 60px #050d19";
-        blackElement.style.transition = "background-color 0.5s, box-shadow 0.5s"; // Add transitions
+        blackElement.style.transition = "background-color 0.5s, box-shadow 0.5s";
       } else {
         blackElement.style.backgroundColor = "transparent";
         blackElement.style.boxShadow = "none";
@@ -43,8 +42,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 //Rotate
 
-let animateRotate = gsap.utils.toArray('.animate-rotate');
+const animateRotate = gsap.utils.toArray('.animate-rotate');
 
+if(animateRotate.length>0){
 animateRotate.forEach((animateRotate) => {
   
   gsap.from(animateRotate, { autoAlpha: 0,
@@ -58,12 +58,13 @@ animateRotate.forEach((animateRotate) => {
     duration: 1
 });
   
-})
+})}
 
 //Opacity
 
-let animateOpacity = gsap.utils.toArray('.animate-opacity');
+const animateOpacity = gsap.utils.toArray('.animate-opacity');
 
+if(animateOpacity.length>0){
 animateOpacity.forEach((animateOpacity) => {
   
   gsap.from(animateOpacity, { autoAlpha: 0,
@@ -76,14 +77,14 @@ animateOpacity.forEach((animateOpacity) => {
     ease: "power2.out",
 });
   
-})
+})}
 
 //Animate up
 
 
-let animateUp = gsap.utils.toArray('.animate-up');
+const animateUp = gsap.utils.toArray('.animate-up');
 
-if(animateUp){
+if(animateUp.length>0){
 animateUp.forEach((animateUp) => {
   
   gsap.from(animateUp, { autoAlpha: 0,
@@ -166,7 +167,7 @@ if(animateHero.length>0){
 });
 };
 
-let animateHeroSingleCase = gsap.utils.toArray('.animate-hero-single-case');
+const animateHeroSingleCase = gsap.utils.toArray('.animate-hero-single-case');
   
 if(animateHeroSingleCase.length>0){
   gsap.from(animateHeroSingleCase, { autoAlpha: 0,
@@ -179,7 +180,7 @@ if(animateHeroSingleCase.length>0){
 });
 }
 
-let animateFromRight = gsap.utils.toArray('.animate-from-right');
+const animateFromRight = gsap.utils.toArray('.animate-from-right');
 
 if(animateFromRight.length>0){
 animateFromRight.forEach((animateFromRight) => {
