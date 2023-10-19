@@ -115,11 +115,25 @@ animateUpSome.forEach((animateUpSome) => {
 
 //Flipcard stagger
 
-let stagger = gsap.utils.toArray('.flip-card');
+let stagger = gsap.utils.toArray('.stagger');
   
   gsap.from(stagger, { autoAlpha: 0,
     scrollTrigger: {
       trigger: stagger,
+    },
+    y:200,
+    stagger: 0.1,
+    rotate: 90,
+    ease: "elastic.out(1,1.5)",
+    opacity: 0,
+    duration: 1.2,
+});
+
+let helpItem = gsap.utils.toArray('.help-item');
+  
+  gsap.from(helpItem, { autoAlpha: 0,
+    scrollTrigger: {
+      trigger: helpItem,
     },
     y:200,
     stagger: 0.1,

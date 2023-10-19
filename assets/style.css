@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Yeseva+One&display=swap');
 @import url('https://fonts.cdnfonts.com/css/beckman-2');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -307,7 +308,7 @@ a:hover{
     left: 0;
     animation: move 10s;
     animation-iteration-count: infinite;
-    animation-delay: 1s;
+    animation-delay: 3s;
   }
 
   @keyframes move {
@@ -375,6 +376,7 @@ display: flex;
 
     .flip-card-back p{
         color: var(--background);
+        font-weight: bold;
     }
 
 .skill{
@@ -733,6 +735,39 @@ max-height: 650px;
     to {
       width: 100%;
     }
+  }
+
+  .help-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+  }
+
+  .help-item{
+    width: 25%;
+    box-shadow:  20px 20px 60px #050d19,
+             -20px -20px 60px #0f2545;
+    padding: 2rem;
+    border-radius: 10%;
+  }
+
+  .help-item svg{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--subtle-gray);
+    padding: 1rem;
+    border-radius: 10%;
+    height: 5rem;
+    fill: var(--heading-white)
+  }
+
+  .help-item h4{
+   text-align: center;
+  }
+
+  .det-kan-jeg{
+    margin-top: 10rem;
   }
   
   @media screen and (max-width: 40em){
