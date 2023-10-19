@@ -1001,4 +1001,7 @@ max-height: 650px;
         .little-project{
             max-width: 100%;
         }
+        .help-item{
+            width: 100%;
+        }
 }

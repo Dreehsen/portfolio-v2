@@ -80,8 +80,10 @@ animateOpacity.forEach((animateOpacity) => {
 
 //Animate up
 
+
 let animateUp = gsap.utils.toArray('.animate-up');
 
+if(animateUp){
 animateUp.forEach((animateUp) => {
   
   gsap.from(animateUp, { autoAlpha: 0,
@@ -93,11 +95,12 @@ animateUp.forEach((animateUp) => {
     opacity: 0,
     duration: 1.5
 });
-  
 })
+};
 
-let animateUpSome = gsap.utils.toArray('.animate-up-some');
+const animateUpSome = gsap.utils.toArray('.animate-up-some');
 
+if(animateUpSome.length>0){
 animateUpSome.forEach((animateUpSome) => {
   
   gsap.from(animateUpSome, { autoAlpha: 0,
@@ -112,11 +115,13 @@ animateUpSome.forEach((animateUpSome) => {
 });
   
 })
+};
 
 //Flipcard stagger
 
-let stagger = gsap.utils.toArray('.stagger');
+const stagger = gsap.utils.toArray('.stagger');
   
+if(stagger.length>0){
   gsap.from(stagger, { autoAlpha: 0,
     scrollTrigger: {
       trigger: stagger,
@@ -128,9 +133,11 @@ let stagger = gsap.utils.toArray('.stagger');
     opacity: 0,
     duration: 1.2,
 });
+};
 
-let helpItem = gsap.utils.toArray('.help-item');
+const helpItem = gsap.utils.toArray('.help-item');
   
+if(helpItem.length>0){
   gsap.from(helpItem, { autoAlpha: 0,
     scrollTrigger: {
       trigger: helpItem,
@@ -142,9 +149,11 @@ let helpItem = gsap.utils.toArray('.help-item');
     opacity: 0,
     duration: 1.2,
 });
+};
 
-let animateHero = gsap.utils.toArray('.animate-hero');
+const animateHero = gsap.utils.toArray('.animate-hero');
   
+if(animateHero.length>0){
   gsap.from(animateHero, { autoAlpha: 0,
     scrollTrigger: {
       trigger: animateHero,
@@ -155,9 +164,11 @@ let animateHero = gsap.utils.toArray('.animate-hero');
     opacity: 0,
     duration: 1
 });
+};
 
 let animateHeroSingleCase = gsap.utils.toArray('.animate-hero-single-case');
   
+if(animateHeroSingleCase.length>0){
   gsap.from(animateHeroSingleCase, { autoAlpha: 0,
     scrollTrigger: {
       trigger: animateHeroSingleCase,
@@ -166,9 +177,11 @@ let animateHeroSingleCase = gsap.utils.toArray('.animate-hero-single-case');
     opacity: 0,
     duration: 1.2
 });
+}
 
 let animateFromRight = gsap.utils.toArray('.animate-from-right');
 
+if(animateFromRight.length>0){
 animateFromRight.forEach((animateFromRight) => {
   
   gsap.from(animateFromRight, { autoAlpha: 0,
@@ -184,6 +197,7 @@ animateFromRight.forEach((animateFromRight) => {
 });
   
 })
+};
 
 //Smooth scroll med lenis
 
