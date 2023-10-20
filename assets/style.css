@@ -331,6 +331,7 @@ a:hover{
         bottom:2vh;
         transform:translateY(-100%);
         color: var(--button);
+        z-index: 11;
     }
 
     .scroll-chevron svg{
@@ -344,7 +345,7 @@ a:hover{
     }
 
 .skills-section {
-display: flex;
+    display: flex;
   justify-content: center;
   align-items: center;
 }    
@@ -563,7 +564,7 @@ box-shadow:  20px 20px 60px #050d19,
 }
 
 .little-project{
-    max-width: 40%;
+    max-width: 30%;
 }
 
 .little-project img{
@@ -722,7 +723,7 @@ max-height: 650px;
   .timeline {
     position: relative;
     width: 100%;
-    height: 0.8rem;
+    height: 0.5rem;
     background: var(--button);
     bottom: 0rem;
     left: 0;
