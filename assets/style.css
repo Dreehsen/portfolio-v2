@@ -34,13 +34,11 @@ body{
 main{
     max-width: 80%;
     margin: 10rem auto;
-
 }
 
 h1, h2, h3{
     font-family: 'Beckman', sans-serif;
-    color: var(--heading-white);
-    
+    color: var(--heading-white);    
 }
 
 h1{
@@ -89,20 +87,11 @@ a{
     width: fit-content;
     gap: 2rem;
     box-shadow:  20px 20px 60px #050d19,
-             -20px -20px 60px #0f2545;
-    
+             -20px -20px 60px #0f2545;  
 }
 
 .nav-button{
-    border: solid 5px var(--button);
-    color: var(--button);
     padding: 0.4rem;
-    border-radius: 5px;
-    transition: 0.2s ease;
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    gap: 2rem;
 }
 
 .button-no-border{
@@ -146,21 +135,8 @@ img{
 }
 
 footer{
-    background-color: var(--background);
     width: 100%;
-    padding-top: 10rem;
-}
-
-footer h2 {
-    color: var(--font) !important;
-}
-
-footer p {
-    color: var(--font) !important;
-}
-
-footer a {
-    color: var(--font) !important;
+    padding-top: 5rem;
 }
 
 .contact-section{
@@ -192,7 +168,6 @@ header{
     z-index: 2;
     height: 6rem;
 }
-
 
 nav{
     padding: 0 5rem;
@@ -262,9 +237,9 @@ a:hover{
 
 .bar {
     display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
+    width: 2.5rem;
+    height: 0.3rem;
+    margin: 0.5rem auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #101010;
@@ -341,13 +316,12 @@ a:hover{
 
     .skills-container{
         display: flex;
-
     }
 
 .skills-section {
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 }    
 
 .skills-section article{
@@ -358,21 +332,19 @@ a:hover{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
     width: 70%;
     margin: auto;
     }
 
 .skills img{
-        height: 5rem;
-        
+        height: 5rem;      
     }
 
 .skills p{
         text-align: center;
         color: var(--button);
-        
     }
 
     .flip-card-back p{
@@ -384,8 +356,8 @@ a:hover{
         border: solid 4px var(--button);
         padding: 2rem 1rem 0 1rem;
         border-radius: 5px;
-background: #0A192F;
-box-shadow:  20px 20px 60px #050d19,
+        background: #0A192F;
+        box-shadow:  20px 20px 60px #050d19,
              -20px -20px 60px #0f2545;
     }
 
@@ -427,23 +399,6 @@ box-shadow:  20px 20px 60px #050d19,
         border-radius: 5px;
       }
 
-      .stars{
-        display: flex;
-        justify-content: center;
-        color: var(--background);
-      }
-
-      .stars img{
-        display: flex;
-        justify-content: center;
-        filter: invert(99%) sepia(87%) saturate(7474%) hue-rotate(322deg) brightness(100%) contrast(101%);
-      }
-
-      .stars img{
-        max-width: 2rem;
-      }
-
-
   /* Portfolio */
 
   #portfolio h2{
@@ -458,13 +413,13 @@ box-shadow:  20px 20px 60px #050d19,
     justify-content: space-between;
     padding: 4rem 3rem;
     border-radius: 50px;
-background: var(--background);
-box-shadow:  20px 20px 60px #050d19,
+    background: var(--background);
+    box-shadow:  20px 20px 60px #050d19,
              -20px -20px 60px #0f2545;
 }
 
 .case-study h3{
-    margin-top: 5px;
+    margin-top: 0.5rem;
     color: var(--heading-white);
 }
 
@@ -517,7 +472,7 @@ box-shadow:  20px 20px 60px #050d19,
 }
 
 .om-louise spline-viewer{
-    max-width: 500px;
+    max-width: 50rem;
     padding-left: 5rem;
 }
 
@@ -646,13 +601,12 @@ figcaption{
 
 .white-bg{
     background: rgb(170,251,255);
-background: linear-gradient(90deg, rgba(170,251,255,1) 0%, rgba(196,247,231,1) 100%);
-width: 100%;
+    background: linear-gradient(90deg, rgba(170,251,255,1) 0%, rgba(196,247,231,1) 100%);
+    width: 100%;
 }
 
 .single-casestudy-top article{
-    max-width: 50%;
-    
+    max-width: 50%;  
 }
 
 .single-casestudy-top p{
@@ -669,11 +623,9 @@ width: 100%;
 }
 
 .single-casestudy-top table{
-    
     font-family: Poppins, sans-serif;
     font-size: 1.5rem;
-    border-collapse: collapse;
-    
+    border-collapse: collapse;  
 }
 
 tr{
@@ -716,8 +668,8 @@ td:nth-child(odd) {
   .image-gallery img{
     object-fit: cover;
     object-position: 50% 0% ;
-width: 100%;
-max-height: 650px;
+    width: 100%;
+    max-height: 650px;
   }
 
   .timeline {
@@ -730,8 +682,6 @@ max-height: 650px;
     animation: progressbar linear;
     animation-timeline: scroll();
   }
-
-
   
   @keyframes progressbar {
     from {
@@ -777,7 +727,6 @@ max-height: 650px;
   
   @media screen and (max-width: 40em){
     
-
     h1{
         font-size: 4rem;
     }
@@ -793,7 +742,6 @@ max-height: 650px;
     p{
         font-size: 1.7rem;
     }
-
 
     main{
         margin: auto;
@@ -855,8 +803,8 @@ max-height: 650px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
     width: 100%;
     padding-top: 5rem;
     padding-bottom: 10rem;
@@ -881,7 +829,7 @@ max-height: 650px;
     .contact-section{
         margin: 3rem;
         width: 90%;
-        border-radius: 50px;
+        border-radius: 50%;
     }
 
    nav{
@@ -899,7 +847,7 @@ max-height: 650px;
             text-align: center;
             padding-top: 15rem;
             transition: 0.3s;
-            box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 1rem 2.7rem rgba(0, 0, 0, 0.05);
             z-index: 1;
         }
     
@@ -924,8 +872,7 @@ max-height: 650px;
         }
 
         .bar{
-            background-color: var(--heading-white);
-            
+            background-color: var(--heading-white);  
         }
 
         .hamburger.active .bar:nth-child(2) {
@@ -933,11 +880,11 @@ max-height: 650px;
         }
     
         .hamburger.active .bar:nth-child(1) {
-            transform: translateY(8px) rotate(45deg);
+            transform: translateY(0.8rem) rotate(45deg);
         }
     
         .hamburger.active .bar:nth-child(3) {
-            transform: translateY(-8px) rotate(-45deg);
+            transform: translateY(-0.8rem) rotate(-45deg);
         }
     
         .single-casestudy-top{
@@ -985,10 +932,9 @@ max-height: 650px;
           .verticalBox .logo svg {
             color: var(--button);
             transition: 0.3s;
-            scale: 1.5;
-            
+            scale: 1.5;            
           }
-          
+  
           .verticalBox hr {
             display: none;
           }
