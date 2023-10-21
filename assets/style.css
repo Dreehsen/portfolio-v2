@@ -500,11 +500,13 @@ a:hover{
 .om-louise li{
     display: flex;
     align-items: center;
+    padding: 0.3rem 0;
 }
 
 .like-list{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .om-louise svg{
@@ -786,7 +788,8 @@ td:nth-child(odd) {
 
 .om-louise-text{
     width: 100%; 
-    padding-bottom: 10rem;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
 } 
 
 .mine-skills{
@@ -840,7 +843,7 @@ td:nth-child(odd) {
             left: 100%;
             flex-direction: column;
             background-color: var(--background);
-            width: 70%;
+            width: 80%;
             height: 110%;
             text-align: center;
             padding-top: 15rem;
@@ -850,7 +853,7 @@ td:nth-child(odd) {
         }
     
         .nav-menu.active {
-            left: 30%;
+            left: 20%;
             margin-top: 0;
         }
     
@@ -960,5 +963,9 @@ td:nth-child(odd) {
 
         .offer-section{
             display: none;
+        }
+
+        .om-louise ul{
+            width: 100%;
         }
 }
