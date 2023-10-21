@@ -108,7 +108,7 @@ animateUpSome.forEach((animateUpSome) => {
     scrollTrigger: {
       trigger: animateUpSome,
     },
-    y:150,
+    y:50,
     delay: 1.5,
     ease: "power4.out",
     opacity: 0,
