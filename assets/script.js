@@ -200,7 +200,7 @@ animateFromRight.forEach((animateFromRight) => {
 })
 };
 
-//Smooth scroll med lenis
+//Smooth scroll med Lenis
 
 const lenis = new Lenis()
 
