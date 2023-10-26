@@ -915,7 +915,12 @@ td:nth-child(odd) {
           }
           .image-gallery figure{
             max-width: 100%;
-            margin-bottom: 7rem;
+            
+          }
+
+          figure{
+            margin: 0;
+            padding: 0 0 2rem 0;
           }
 
           .om-louise spline-viewer{
