@@ -79,7 +79,7 @@ a{
     border: solid 5px var(--button);
     color: var(--button);
     padding: 1rem 3rem;
-    border-radius: 5px;
+    border-radius: 10px;
     text-decoration: none;
     transition: 0.2s ease;
     display: flex;
@@ -189,7 +189,7 @@ nav{
     font-weight: 600;
     margin: 1rem 0;
     letter-spacing: 0.2rem;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .nav-logo:hover{
@@ -354,7 +354,7 @@ a:hover{
 .skill{
         border: solid 4px var(--button);
         padding: 2rem 1rem 0 1rem;
-        border-radius: 5px;
+        border-radius: 10px;
         background: #0A192F;
         box-shadow:  20px 20px 60px #050d19,
              -20px -20px 60px #0f2545;
@@ -395,7 +395,7 @@ a:hover{
         background-color: var(--button);
         color: var(--background);
         transform: rotateY(180deg);
-        border-radius: 5px;
+        border-radius: 10px;
       }
 
   /* Portfolio */
@@ -444,7 +444,7 @@ a:hover{
 .used-skills{
     background-color: var(--subtle-gray);
     padding-inline: 1rem;
-    border-radius: 50px;
+    border-radius: 10px;
     margin-inline: 0.2rem;
     margin: 4px 4px
 }
@@ -564,6 +564,7 @@ a:hover{
     margin: auto;
     border: none;
   }
+  
 
 /* Single case-study */
 
@@ -705,7 +706,7 @@ td:nth-child(odd) {
     box-shadow:  20px 20px 60px #050d19,
              -20px -20px 60px #0f2545;
     padding: 2rem;
-    border-radius: 10%;
+    border-radius: 50px;
   }
 
   .help-item svg{
@@ -713,7 +714,7 @@ td:nth-child(odd) {
     margin-right: auto;
     background-color: var(--subtle-gray);
     padding: 1rem;
-    border-radius: 10%;
+    border-radius: 10px;
     height: 5rem;
     fill: var(--heading-white)
   }
@@ -830,7 +831,7 @@ td:nth-child(odd) {
     .contact-section{
         margin: 3rem;
         width: 90%;
-        border-radius: 50%;
+        border-radius: 50px;
     }
 
    nav{
