@@ -223,3 +223,21 @@ function openTab(tabName) {
   }
   document.getElementById(tabName).style.display = "block";  
 }
+
+// Emoji og besked i title, når vinduet er inaktivt
+
+window.onload = function() {
+
+  var Title = document.title;
+  var alertMessage = 'Hallo? 😐 Er du der?';
+
+  document.addEventListener('visibilitychange', function(e) {
+    const isActive = !document.hidden;
+
+    if(!isActive){
+      document.title = alertMessage;
+    }else {
+      document.title = Title;
+    }
+  });
+};
